@@ -8,6 +8,7 @@ License:	BSD
 Group:		Development/Python
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	pkgconfig(yajl)
+BuildRequires:	pkgconfig(python3)
 
 %description
 Iterative JSON parser with standard Python iterator interfaces
