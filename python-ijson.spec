@@ -2,7 +2,7 @@
 %bcond tests 1
 
 Name:		python-ijson
-Version:	3.5.0
+Version:	3.5.1
 Release:	1
 Summary:	Iterative JSON parser with standard Python iterator interfaces
 License:	BSD-3-Clause
