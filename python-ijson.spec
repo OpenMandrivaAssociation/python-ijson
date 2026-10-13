@@ -2,10 +2,10 @@
 %bcond tests 1
 
 Name:		python-ijson
-Version:	3.5.1
+Version:	3.6.0
 Release:	1
 Summary:	Iterative JSON parser with standard Python iterator interfaces
-License:	BSD-3-Clause
+License:	BSD-3-Clause AND ISC
 Group:		Development/Python
 URL:		https://pypi.org/project/ijson/
 Source0:	https://files.pythonhosted.org/packages/source/i/ijson/ijson-%{version}.tar.gz#/%{name}-%{version}.tar.gz
@@ -39,5 +39,6 @@ pytest
 
 %files
 %doc README.rst
+%license LICENSE.txt
 %{python_sitearch}/%{module}
 %{python_sitearch}/%{module}-%{version}.dist-info
